@@ -88,14 +88,14 @@ namespace WindowsFormsAppBMI
             if (result < 30)
             {
                 result2 = "Niestety, ale masz nadwagę! - zadbaj o dietę!";
-                kolorWyniku.BackColor = Color.Red;
+                kolorWyniku.BackColor = Color.Yellow;
                 pictureBox1.BackgroundImage = imageList1.Images[2];
             }
             else
             if (result < 35)
             {
                 result2 = "Kwalifikujesz się jako osoba otyła! - zadbaj o dietę jak najszybciej!";
-                kolorWyniku.BackColor = Color.DarkGray;
+                kolorWyniku.BackColor = Color.Tomato;
                 pictureBox1.BackgroundImage = imageList1.Images[3];
             }
             else
@@ -131,6 +131,31 @@ namespace WindowsFormsAppBMI
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
         {
 
         }
