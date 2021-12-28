@@ -74,21 +74,21 @@ namespace WindowsFormsAppBMI
             if (result < 18.5)
             {
                 result2 = "Niestety, ale masz niedowagę! Jedz więcej i zdrowo.";
-                kolorWyniku.BackColor = Color.Teal;
+                kolorWyniku.BackColor = Color.DeepSkyBlue;
                 pictureBox1.BackgroundImage = imageList1.Images[0];
             }
             else
             if (result < 25)
             {
                 result2 = "Twoja waga jest w normie - tak trzymaj!";
-                kolorWyniku.BackColor = Color.Green;
+                kolorWyniku.BackColor = Color.LimeGreen;
                 pictureBox1.BackgroundImage = imageList1.Images[1];
             }
             else
             if (result < 30)
             {
                 result2 = "Niestety, ale masz nadwagę! - zadbaj o dietę!";
-                kolorWyniku.BackColor = Color.Yellow;
+                kolorWyniku.BackColor = Color.DarkOrange;
                 pictureBox1.BackgroundImage = imageList1.Images[2];
             }
             else
@@ -156,6 +156,11 @@ namespace WindowsFormsAppBMI
         }
 
         private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
